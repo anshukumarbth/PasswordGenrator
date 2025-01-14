@@ -1,6 +1,7 @@
 import { useState,useEffect ,useCallback,useRef } from "react";
 import "./App.css";
 
+
 function App() {
   const [length, setLength] = useState("8");
   const [numberAllow, setNumberAllow] = useState(false);
@@ -34,8 +35,7 @@ function App() {
   }, [length, numberAllow, charAllowed, passwordgenrator]);
 
   return (
-    <center>
-      <div className="w-full max-w-md p-2 px-4 mx-auto my-8 bg-gray-500 rounded-lg shadow-md">
+      <div className="w-full p-2 px-4 mx-auto my-8 bg-gray-500 rounded-lg shadow-md m-ax-w-md height ">
         <h1 className="mt-5 text-3xl text-center">Password Generator</h1>
         <div className="flex items-center overflow-hidden">
           <input
@@ -93,7 +93,6 @@ function App() {
           </div>
         </div>
       </div>
-    </center>
   );
 }
 

@@ -3,5 +3,13 @@
 @tailwind utilities;
 
 body{
-  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  margin-top: 220px;
+  background-color : gray;
+}
+.height
+{
+  height: 12rem;
 }
